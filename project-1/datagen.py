@@ -22,6 +22,7 @@ from faker import Faker
 
 
 config = {"root": os.path.expanduser("~/data")}
+
 os.makedirs(config["root"], exist_ok=True)
 
 
